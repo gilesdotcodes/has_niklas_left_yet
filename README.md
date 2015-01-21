@@ -1,6 +1,8 @@
 # HasNiklasLeftYet
 
-TODO: Write a gem description
+This is a gem designed to help me make friends in my job. Well maybe! It is
+something for me to play around with and continuing to write code.
+In essence it is a very simple countdown timer until Niklas leaves :-(
 
 ## Installation
 
@@ -20,11 +22,13 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+````
+$ has_niklas_left_yet
+````
 
 ## Contributing
 
-1. Fork it ( https://github.com/[my-github-username]/has_niklas_left_yet/fork )
+1. Fork it (https://github.com/HatStephens/has_niklas_left_yet/fork)
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)

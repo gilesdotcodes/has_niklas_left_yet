@@ -1,3 +1,3 @@
-module HasNiklasLeftYet
+class HasNiklasLeftYet
   VERSION = "0.0.1"
 end
