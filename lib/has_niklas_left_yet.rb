@@ -79,6 +79,7 @@ class HasNiklasLeftYet
       he_will_be_greatly_missed i_hope_he_visits_us
       i_wonder_if_he_will_buy_us_all_a_drink_when_he_leaves
       heroku_will_be_a_better_place
+      he_will_be_remembered_forever
       ).sample
   end
 end
