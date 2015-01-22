@@ -3,6 +3,7 @@
 This is a gem designed to help me make friends in my job. Well maybe! It is
 something for me to play around with and continuing to write code.
 In essence it is a very simple countdown timer until Niklas leaves :-(
+It is for use in the terminal.
 
 ## Installation
 
