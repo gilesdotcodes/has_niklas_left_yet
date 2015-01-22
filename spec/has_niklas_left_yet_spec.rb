@@ -36,10 +36,22 @@ describe HasNiklasLeftYet do
     countdown.answer_to_question
   end
 
-  xit 'knows the difference between Niklas leaving and current time' do
+  it 'knows the difference between Niklas leaving and current time' do
     Delorean.time_travel_to(Time.utc(2015,01,21,17,30))
-    expect(countdown.time_difference.strftime("%H:%M:%s"))
-      .to eq("")
+    expect(countdown.time_difference.to_i)
+      .to eq(606600)
+  end
+
+  it 'can convert the difference in time into days, hours and minutes' do
+    Delorean.time_travel_to(Time.utc(2015,01,21,17,30))
+    expect(countdown.time_difference_normal).to eq("7:0:30")
+  end
+
+  it 'can says how long Niklas has left' do
+    Delorean.time_travel_to(Time.utc(2015,01,21,17,30))
+    expect(countdown).to receive(:`)
+      .with('say "7 days, 0 hours and 30 minutes"')
+    countdown.time_difference_spoken
   end
 
 end

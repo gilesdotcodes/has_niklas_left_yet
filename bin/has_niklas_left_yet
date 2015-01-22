@@ -1,2 +1,9 @@
 #!/usr/bin/env ruby
 require 'has_niklas_left_yet'
+
+niklas = HasNiklasLeftYet.new
+
+niklas.answer_to_question
+niklas.link_speech_before_countdown
+niklas.time_difference_spoken
+niklas.link_speech_after_countdown
