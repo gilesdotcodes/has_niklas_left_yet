@@ -19,7 +19,6 @@ class HasNiklasLeftYet
     has_niklas_left_yet? ? say_something("Yes") : say_something("No")
   end
 
-
   def time_difference
     niklas_leaving_time.to_i - current_time.to_i
   end
@@ -47,8 +46,6 @@ class HasNiklasLeftYet
       say_something(random_string)
     end
   end
-
-
 
 
   private
