@@ -20,7 +20,7 @@ class HasNiklasLeftYet
   end
 
   def time_difference
-    niklas_leaving_time.to_i - current_time.to_i
+    (niklas_leaving_time.to_i - current_time.to_i).abs
   end
 
   def time_difference_normal
